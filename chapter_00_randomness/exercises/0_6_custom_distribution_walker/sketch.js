@@ -17,7 +17,7 @@ class Walker {
 
   step() {
     // A uniform distribution of random step sizes. Change this!
-    let step = 2;
+    let step = 1.5;
     let stepx = acceptReject() * step;
     stepx *= random() < 0.5 ? -1 : 1;
     let stepy = acceptReject() * step;
